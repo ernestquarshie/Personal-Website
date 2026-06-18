@@ -7,8 +7,8 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header class="main">
+    <section class="hero">
+        <header class="main container">
             <nav class="navbar">
                 <div class="navbrand"><span class="navbrand-item">Ernst</span></div>
                 <div class="navbar-items">
@@ -22,163 +22,180 @@
                 </div>
             </nav>
             <div class="hero-page">
-                <h1>Hi, I'm <span class="my-name">Ernest Quarshie</span></h1>
-                <h1>a <span class="dynamic-content">Web Developer</span></h1>
-                <p>I love bringing website ideas to life, researching web vulnerabilities and obssessed with growth.</p>
-                <button class="btn-primary">My Projects</button>
+                <div class="hero-page-content">
+                    <h1>Hi, I'm <span class="my-name">Ernest Quarshie</span></h1>
+                    <h1>a <span id="dynamic-content">Web Developer</span></h1>
+                    <p>I love bringing website ideas to life, researching web vulnerabilities and obssessed with growth.</p>
+                    <button class="btn btn-primary">My Projects</button>
+                </div>
+                
             </div>
         </header>
-        <section class="about-me">
-            <div class="web-developer">
-                <div class="about-me-image "><img src="x" alt="About Me image"></div>
-                <div class="about-me-text" id="web-developer-text">
-                    I am a self-taught passionate Webdeveloper. I'm all about achieving excellent results and 
-                    and exceeding client expectations. My work communicates quality and professionalism. 
-                </div>
+    </section>
+    <section class="about-me pb-5 container">
+        <div class="pb-5 toggle-buttons">
+            <button class="btn toggle-btn" id="web-dev-btn">Web Developer</button>
+            <button class="btn toggle-btn" id="security-researcher-btn">Security Researcher</button>
+            <button class="btn toggle-btn" id="bugbounty-hunter-btn">Bug Bounty Hunter</button>
+        </div>
+        <div class="about-me-content web-developer">
+            <div class="about-me-image "><img src="https://images.pexels.com/photos/16129724/pexels-photo-16129724.jpeg?_gl=1*1wpuins*_ga*NDM1NDcxMDU2LjE3ODE0ODAyMTE.*_ga_8JE65Q40S6*czE3ODE3NDAyMjEkbzUkZzEkdDE3ODE3NDAyNjQkajE3JGwwJGgw" alt="About Me image"></div>
+            <div class="about-me-text" id="web-developer-text">
+                I am a self-taught passionate Webdeveloper. I'm all about achieving excellent results and 
+                and exceeding client expectations. My work communicates quality and professionalism. 
             </div>
-            <div class="security-researcher">
-                <div class="about-me-image" id="Security-Researcher-image"><img src="x" alt="About Me image"></div>
-                <div class="about-me-text" id="Security-Researcher-text">
-                    I am also a Web security researcher. Over the years I've taught my self the various websites and webapplications 
-                    vulnerabilites and how to defend against them. I'm active on web security platforms like hact-the-box, try-hack-me, portswigger etc -
-                    just to mention a few. I'm currently pursing a career path in penetration testing.
-                </div>
+        </div>
+        <div class="about-me-content pt-5 security-researcher">
+            <div class="about-me-image" id="Security-Researcher-image"><img src="https://images.pexels.com/photos/6963098/pexels-photo-6963098.jpeg?_gl=1*75tlpf*_ga*NDM1NDcxMDU2LjE3ODE0ODAyMTE.*_ga_8JE65Q40S6*czE3ODE3NDAyMjEkbzUkZzEkdDE3ODE3NDA0MzIkajQzJGwwJGgw" alt="About Me image"></div>
+            <div class="about-me-text" id="Security-Researcher-text">
+                I am also a Web security researcher. Over the years I've taught my self the various websites and webapplications 
+                vulnerabilites and how to defend against them. I have a self built website where I post my findings. I'm currently pursing a career path in penetration testing.
             </div>
-        </section>
-        <section class="projects">
-            <div class="project-card">
-                <img src="x" alt="Project Image">
-                <div class="project-card-body">
-                    <h4>Project 1</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident amet rem eius dolorem aliquam in ipsum cum odit expedita! Sit deleniti, a,
-                         recusandae ipsa perspiciatis temporibus vel nihil assumenda cumque consequuntur distinctio obcaecati explicabo facere!
-                    </p>
-                    <a href="#" class="btn btn-primary">Check it out</a>
-                </div>
-                <div class="project-card-body">
-                    <h4>Project 1</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident amet rem eius dolorem aliquam in ipsum cum odit expedita! Sit deleniti, a,
-                         recusandae ipsa perspiciatis temporibus vel nihil assumenda cumque consequuntur distinctio obcaecati explicabo facere!
-                    </p>
-                    <a href="#" class="btn btn-primary">Check it out</a>
-                </div>
-                <div class="project-card-body">
-                    <h4>Project 1</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident amet rem eius dolorem aliquam in ipsum cum odit expedita! Sit deleniti, a,
-                         recusandae ipsa perspiciatis temporibus vel nihil assumenda cumque consequuntur distinctio obcaecati explicabo facere!
-                    </p>
-                    <a href="#" class="btn btn-primary">Check it out</a>
-                </div>
-                <div class="project-card-body">
-                    <h4>Project 1</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident amet rem eius dolorem aliquam in ipsum cum odit expedita! Sit deleniti, a,
-                         recusandae ipsa perspiciatis temporibus vel nihil assumenda cumque consequuntur distinctio obcaecati explicabo facere!
-                    </p>
-                    <a href="#" class="btn btn-primary">Check it out</a>
-                </div>
+        </div>
+        <div class="about-me-content pt-5 security-researcher">
+            <div class="about-me-image" id="Security-Researcher-image"><img src="https://images.pexels.com/photos/7988089/pexels-photo-7988089.jpeg?_gl=1*1nw2r2t*_ga*NDM1NDcxMDU2LjE3ODE0ODAyMTE.*_ga_8JE65Q40S6*czE3ODE3NDAyMjEkbzUkZzEkdDE3ODE3NDA2OTQkajIxJGwwJGgw" alt="About Me image"></div>
+            <div class="about-me-text" id="Security-Researcher-text">
+                I am also a Bug Bounty Hunter. Over the years I've taught my self the various websites and webapplications 
+                vulnerabilites and how to defend against them. I'm active on web security platforms like hact-the-box, try-hack-me, portswigger etc -
+                just to mention a few. I'm currently pursing a career path in penetration testing.
             </div>
-        </section>
-        <section class="resume">
-            <div class="resume-tabs">
-                <div class="resume-tab">Education & Certifications</div>
-                <div class="resume-tab">Experience</div>
-                <div class="resume-tab">Skills</div>
+        </div>
+    </section>
+    <section class="projects pb-5 container">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <img src="x" alt="Project Image">
+            <div class="project-card-body">
+                <h4>Project 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident amet rem eius dolorem aliquam in ipsum cum odit expedita! Sit deleniti, a,
+                        recusandae ipsa perspiciatis temporibus vel nihil assumenda cumque consequuntur distinctio obcaecati explicabo facere!
+                </p>
+                <a href="#" class="btn btn-primary">Check it out</a>
             </div>
-            <!-- Resume details will be populated dynamically -->
-            <div class="resume-details">
-                <div class="education">
-                    <div class="card">
-                        <h3>[Degree Name]</h3>
-                        <p>[Institution Name]<span>[Year]</span></p>
-                        <p>[Description]</p>
-                    </div>
-                    <div class="card">
-                        <h3>[Degree Name]</h3>
-                        <p>[Institution Name]<span>[Year]</span></p>
-                        <p>[Description]</p>
-                    </div>
-                    <div class="card">
-                        <h3>[Degree Name]</h3>
-                        <p>[Institution Name]<span>[Year]</span></p>
-                        <p>[Description]</p>
-                    </div>
-                    <div class="card">
-                        <h3>[Degree Name]</h3>
-                        <p>[Institution Name]<span>[Year]</span></p>
-                        <p>[Description]</p>
-                    </div>
-                </div>
+            <div class="project-card-body">
+                <h4>Project 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident amet rem eius dolorem aliquam in ipsum cum odit expedita! Sit deleniti, a,
+                        recusandae ipsa perspiciatis temporibus vel nihil assumenda cumque consequuntur distinctio obcaecati explicabo facere!
+                </p>
+                <a href="#" class="btn btn-primary">Check it out</a>
             </div>
-            <!--Education & Certifications-->
-            <div class="Experience">
+            <div class="project-card-body">
+                <h4>Project 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident amet rem eius dolorem aliquam in ipsum cum odit expedita! Sit deleniti, a,
+                        recusandae ipsa perspiciatis temporibus vel nihil assumenda cumque consequuntur distinctio obcaecati explicabo facere!
+                </p>
+                <a href="#" class="btn btn-primary">Check it out</a>
+            </div>
+            <div class="project-card-body">
+                <h4>Project 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident amet rem eius dolorem aliquam in ipsum cum odit expedita! Sit deleniti, a,
+                        recusandae ipsa perspiciatis temporibus vel nihil assumenda cumque consequuntur distinctio obcaecati explicabo facere!
+                </p>
+                <a href="#" class="btn btn-primary">Check it out</a>
+            </div>
+        </div>
+    </section>
+    <section class="resume container">
+        <h2>Resume</h2>
+        <div class="resume-tabs">
+            <div class="resume-tab">Education & Certifications</div>
+            <div class="resume-tab">Experience</div>
+            <div class="resume-tab">Skills</div>
+        </div>
+        <!-- Resume details will be populated dynamically -->
+        <div class="resume-details">
+            <div class="education">
                 <div class="card">
-                    <h3>[Bounty Hunter]</h3>
-                    <p>[BugCrowd]<span>[Year]</span></p>
+                    <h3>[Degree Name]</h3>
+                    <p>[Institution Name]<span>[Year]</span></p>
                     <p>[Description]</p>
                 </div>
                 <div class="card">
-                    <h3>[Bounty Hunter]</h3>
-                    <p>[HackerOne]<span>[Year]</span></p>
+                    <h3>[Degree Name]</h3>
+                    <p>[Institution Name]<span>[Year]</span></p>
                     <p>[Description]</p>
                 </div>
                 <div class="card">
-                    <h3>[Freelance Web Developer]</h3>
-                    <p>[Self Employed]<span>[Year]</span></p>
+                    <h3>[Degree Name]</h3>
+                    <p>[Institution Name]<span>[Year]</span></p>
                     <p>[Description]</p>
                 </div>
-                <!-- Skills -->
                 <div class="card">
-                    <h3>[Web Development]</h3>
-                    <p>[HTML, CSS, JavaScript, React, Node.js]</p>
-                </div>
-                <div class="card">
-                    <h3>[Web Security]</h3>
-                    <p>[Penetration Testing, Vulnerability Assessment, OWASP Top 10, Web Application Firewalls]</p>
-                </div>
-                <div class="card">
-                    <h3>[Blogger]</h3>
-                    <p>[Security blogs]</p>
-                </div>
-        </section>
-        <section>
-            <div class="contact-details">
-                <div class="img">
-                    <img src="x" alt="Contact Image">
-                </div>
-                <div class="contact-info">
-                    <h2>Contact Me</h2>
-                    <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+                    <h3>[Degree Name]</h3>
+                    <p>[Institution Name]<span>[Year]</span></p>
+                    <p>[Description]</p>
                 </div>
             </div>
-            <div class="contact-form">
-                <div>
-                    <p>Name</p>
-                    <input type="text" placeholder="">
-                    <p>Your Number</p>
-                    <input type="text" placeholder="1234567890">
-                </div>
-                <div>
-                    <p>Email</p>
-                    <input type="email" placeholder="example@gmail.com">
-                </div>
-                <div>
-                    <p>Subject</p>
-                    <input type="text" placeholder="Subject">
-                </div>
-                <div>
-                    <p>Message</p>
-                    <input type="text" placeholder="Your message here...">
-                </div>
-                <button class="btn-primary">Send Message</button>
+        </div>
+        <!--Education & Certifications-->
+        <div class="Experience">
+            <div class="card">
+                <h3>[Bounty Hunter]</h3>
+                <p>[BugCrowd]<span>[Year]</span></p>
+                <p>[Description]</p>
             </div>
-        </section>
-        <section class="footer">
-            <footer>
-                <img src="x" alt="Footer image">
-                <p>Portfolio</p>
-                <p>&copy; 2026. All rights reserved by Ernest Quarshie</p>
-            </footer>
-        </section>
-    </div>
+            <div class="card">
+                <h3>[Bounty Hunter]</h3>
+                <p>[HackerOne]<span>[Year]</span></p>
+                <p>[Description]</p>
+            </div>
+            <div class="card">
+                <h3>[Freelance Web Developer]</h3>
+                <p>[Self Employed]<span>[Year]</span></p>
+                <p>[Description]</p>
+            </div>
+            <!-- Skills -->
+            <div class="card">
+                <h3>[Web Development]</h3>
+                <p>[HTML, CSS, JavaScript, React, Node.js]</p>
+            </div>
+            <div class="card">
+                <h3>[Web Security]</h3>
+                <p>[Penetration Testing, Vulnerability Assessment, OWASP Top 10, Web Application Firewalls]</p>
+            </div>
+            <div class="card">
+                <h3>[Blogger]</h3>
+                <p>[Security blogs]</p>
+            </div>
+    </section>
+    <section class="pt-5 container">
+        <div class="contact-details">
+            <div class="img">
+                <img src="x" alt="Contact Image">
+            </div>
+            <div class="contact-info">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+            </div>
+        </div>
+        <div class="contact-form">
+            <div>
+                <p>Name</p>
+                <input type="text" placeholder="">
+                <p>Your Number</p>
+                <input type="text" placeholder="1234567890">
+            </div>
+            <div>
+                <p>Email</p>
+                <input type="email" placeholder="example@gmail.com">
+            </div>
+            <div>
+                <p>Subject</p>
+                <input type="text" placeholder="Subject">
+            </div>
+            <div>
+                <p>Message</p>
+                <input type="text" placeholder="Your message here...">
+            </div>
+            <button class="btn btn-primary">Send Message</button>
+        </div>
+    </section>
+    <section class="footer container">
+        <footer>
+            <img src="x" alt="Footer image">
+            <p>Portfolio</p>
+            <p>&copy; 2026. All rights reserved by Ernest Quarshie</p>
+        </footer>
+    </section>
 </body>
 </html>

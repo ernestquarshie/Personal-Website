@@ -17,22 +17,150 @@ body{
 }
 /*h1 - h5 text styles*/
  h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
     color: #333;
  }
 
+ h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#333;
+ }
  a{
     text-decoration: none;
     text-transform: uppercase;
     color: #333;
  }
 
+ ul{
+    list-style: none;
+ }
+ 
+ .pt-5{
+    padding-top: 5rem;
+ }
+
+ .pb-5{
+    padding-bottom: 5rem;
+ }
+
+ .btn{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+ }
+
+ .btn-primary{
+    background-color: #007bff;
+    transition:all 0.3s ease-in-out;
+  }
+ 
+ .toggle-btn{
+    background-color: transparent;
+    border: 1px solid #333;
+    color:black;
+  }
+
  .container{
     max-width: 1200px;
     padding: 0 1rem;
     margin: 0 auto; 
  }
+ .hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/10190587/pexels-photo-10190587.jpeg?_gl=1*luv79z*_ga*NDM1NDcxMDU2LjE3ODE0ODAyMTE.*_ga_8JE65Q40S6*czE3ODE2NDc2MzIkbzMkZzEkdDE3ODE2NDc4MTAkajU5JGwwJGgw');
+    background-size: cover;
+    background-position: 100% 70%;
+    background-repeat: no-repeat;
+ }
 
+ header{
+   background-color: transparent;
+   height: 100%;
+   width: 100%;
+ }
+
+ .navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
  
+ .navbrand{
+   font-size: 1.2rem;
+   font-weight: 400;
+   color: #fff;
+ }
+
+ .navbar-nav{
+   display: flex;
+ }
+ .nav-item{
+   justify-content: space-around;
+   margin-left: 1.5rem;
+ }
+
+ .hero-page{
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
+   color: #fff;
+   text-align: center;
+
+ }
+
+ .hero-page p{
+   font-size: 1.2rem;
+   margin-bottom: 1rem;
+   width: 50%;
+   text-align: left;
+ }
+
+ .hero-page-content{
+   text-align: left;
+   padding-top: 10rem;
+ }
+
+ .hero-page-content #dynamic-content{
+   color: red;
+ }
+
+ .about-me{
+  padding-top: 3rem;
+ }
+
+ .about-me-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+ }
+
+.about-me-image{
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me-image img{
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-me-text{
+  width: 50%;
+  padding-left: 2rem;
+}
+
+/*.projects{
+  
+}*/
