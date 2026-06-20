@@ -20,7 +20,7 @@ body{
     font-size: 2rem;
     font-weight: 800;
     text-transform: uppercase;
-    color: #333;
+    color: #f5f5f5;
  }
 
  h2{
@@ -74,7 +74,8 @@ body{
  .hero{
     height: 100vh;
     width: 100%;
-    background-image: url('https://images.pexels.com/photos/10190587/pexels-photo-10190587.jpeg?_gl=1*luv79z*_ga*NDM1NDcxMDU2LjE3ODE0ODAyMTE.*_ga_8JE65Q40S6*czE3ODE2NDc2MzIkbzMkZzEkdDE3ODE2NDc4MTAkajU5JGwwJGgw');
+    /*background-image: url('https://images.pexels.com/photos/10190587/pexels-photo-10190587.jpeg?_gl=1*luv79z*_ga*NDM1NDcxMDU2LjE3ODE0ODAyMTE.*_ga_8JE65Q40S6*czE3ODE2NDc2MzIkbzMkZzEkdDE3ODE2NDc4MTAkajU5JGwwJGgw');*/
+    background-image: url('https://images.pexels.com/photos/2715001/pexels-photo-2715001.jpeg?_gl=1*1dhb68s*_ga*MTQ1NjU1OTQuMTc4MTk0NDc2Ng..*_ga_8JE65Q40S6*czE3ODE5NDQ3NjUkbzEkZzEkdDE3ODE5NDQ5MzEkajU5JGwwJGgw');
     background-size: cover;
     background-position: 100% 70%;
     background-repeat: no-repeat;
